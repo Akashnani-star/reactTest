@@ -1,0 +1,59 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #c6d57e;
+  color: #d57e7e;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+}
+
+input,
+.add-item {
+  text-align: start;
+  padding: 0.5rem;
+  outline: none;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  color: green;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  color: #d57e7e;
+  align-items: center;
+  background-color: #ffe1af;
+  padding: 0.5rem;
+}
+
+.test {
+  visibility: hidden;
+}
+
+button {
+  padding: 0.4rem;
+  color: red;
+}
+
+.head {
+  text-align: center;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.modalcontent {
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #a2cdcd;
+}
